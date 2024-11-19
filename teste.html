@@ -61,6 +61,21 @@
         let NumeroEscolhido = Number(prompt("Escolha um numero"))
         alert(NumeroEscolhido)
 
+        //Desafio 1
+        let NomeProduto = prompt("Qual produto você quer?")
+        let NumeroDeProdutos = Number(prompt("Quantos items deste produto você quer?"))
+        let PreocoProduto = Number(prompt("Qual o preço unitario do produto?"))
+        alert(`VocÊ comprou ${NumeroDeProdutos} de ${NomeProduto} que custa ${PreocoProduto} o total é de ${NumeroDeProdutos*PreocoProduto}`)
+
+        //Desafio 2
+        let NomeMateria = prompt("Qual o nome da materia?")
+        let NotaMateria1 = Number(prompt("Qual a primeira nota?"))
+        let NotaMateria2 = Number(prompt("Qual a segunda nota?"))
+        let NotaMateria3 = Number(prompt("Qual a terceira nota?"))
+        let Media = (NotaMateria1+NotaMateria2+NotaMateria3)/3;
+
+        alert(`Na materia ${NomeMateria} você tirou ${NotaMateria1}, ${NotaMateria2} e ${NotaMateria3} então teve uma media de ${Media}`)
+
     </script>
 </body>
 <script src="script.js"></script>
