@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //ex7
+        let ContaValor=Number(prompt("Quanto você pagou no restaurante?"))
+        let gorjetaper=Number(prompt("Quantos porcentos de gorjeta?"))
+        let gorjeta=ContaValor*gorjetaper/100
+    
+        alert(`Você pagou ${Math.floor(ContaValor+gorjeta)} com ${gorjeta} de gorjeta`)
+        //ex 1
+        let nome = prompt("qual seu nome")
+        alert("bem vindo "+nome)
+        //ex 2
+        let num1 = prompt("escolha um numero")
+        let num2 = prompt("escolha um numero")
+        num1 = Number(num1)
+        num2 = Number(num2)
+        let soma = num1+num2
+
+        alert(`O resultado é ${soma}`)
+        //ex 3
+        let AnoAtual = Number(prompt("Qual é o ano atual"))
+        let AnoNascimento = Number(prompt("Qual é o ano do seu nascimento"))
+        let idade = AnoAtual-AnoNascimento
+
+        alert("Você tem "+idade+" anos de idade")
+        //ex 4
+        let Quantia = Number(prompt("Quantos sorvetes você quer comprar?"))
+        let precoSorvete = Number(prompt("Qual o preço do sorvete"))
+        let total = Quantia*precoSorvete
+
+        alert(`O total da compra é: R$${total.getFixed(2)}`)
+        //ex 5
+        let aleatorio = Math.floor(Math.random()*100)+1
+        let chute = prompt("Chute um numero entre 0 e 100")
+        alert(`O seu chute foi ${chute}. O numero era ${aleatorio}`)
+        
+        //ex 6
+        let nume1 = Number(prompt("Escolha um numero"))
+        let nume2 = Number(prompt("Escolha um numero"))
+        alert(`Você escolheu o numeros ${nume1} e ${nume2}`)
+
+        //ex 8
+        let NumMult1=Number(prompt("Escolha um numero"))
+        let NumMult2=Number(prompt("Escolha outro numero"))
+        console.log(NumMult1*NumMult2)
+
+        //ex 9
+        let Nome = prompt("Qual o seu nome")
+        let Ano = Number(prompt("Qual o ano atual?"))
+        let AnosAdicionar = Number(prompt("Quantos anos quer adicionar?"))
+        alert(`Com os anos que adicionou o ano futuro sera ${Ano+AnosAdicionar}`)
+
+        //ex 10
+        let NumeroEscolhido = Number(prompt("Escolha um numero"))
+        alert(NumeroEscolhido)
+
+    </script>
+</body>
+<script src="script.js"></script>
+</html>
