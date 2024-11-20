@@ -178,8 +178,19 @@
 
         if(Idade<18) {
             alert(`Desculpe ${Nome}, você não atende os critérios de idade`)
+        };
+        if(NotaTec<7){
+            alert(`Infezlimente, ${Nome} sua pontuação na prova foi insuficiente`)
+        };
+        if(NotaEntr<6){
+            alert(`Infezlimente, ${Nome} sua ponruação na entrevista foi insuficiente`)
+        };
+        if(Idade>=18 && NotaTec>=7 && NotaEntre>=6) {
+            alert('Parabens você passou')
+            if((NotaEntr+NotaTec)/2){
+                alert("Você é altamente qualificado")
+            }
         }
-        if(NotaTec<1){}
     </script>
     <script src="script.js"></script>
 </body>
