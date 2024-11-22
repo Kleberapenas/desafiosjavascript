@@ -16,5 +16,5 @@ else if(media<7 && media>=5) {
 } 
 //Teste logico se o aluno tiver media menor que 5 e mais de/ou 25% de falta ele esta de REPROVADO
 else{
-    console.log("Aluno aprovado");
+    console.log("Aluno foi aprovado");
 };
