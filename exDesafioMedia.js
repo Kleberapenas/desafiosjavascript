@@ -11,10 +11,10 @@ if(media>=7 && Falta<25) {
     console.log("Aluno aprovado");
 }
 //Teste logico se o aluno tiver media menor que 7 porém maior ou igual a 5 e menos de 25% de falta ele esta de RECUPERAÇÃO
-else if(media<7 && media>=5 && Falta<5) {
+else if(media<7 && media>=5 && Falta<25) {
     console.log("O aluno esta de recuperação");
 } 
 //Teste logico se o aluno tiver media menor que 5 e mais de/ou 25% de falta ele esta de REPROVADO
-else if(media<5 && Falta>=5){
+else if(media<5 && Falta>=25){
     console.log("O aluno esta reprovado");
 };

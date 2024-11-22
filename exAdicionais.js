@@ -48,7 +48,10 @@ function ex006() {
     return PrecoTotal
 }
 //ex7
-function ex007() {};
+function ex007() {
+    let ValorTotal = parseFloat(prompt("Qual o valor total da sua compra?"));
+    let Parcelas = parseInt(prompt("Em quantas vezes deseja parcelar está compra?"));
+};
 //ex8
 //ex9
 //ex10
