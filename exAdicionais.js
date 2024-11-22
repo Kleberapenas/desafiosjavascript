@@ -48,6 +48,7 @@ function ex006() {
     return PrecoTotal
 }
 //ex7
+function ex007() {};
 //ex8
 //ex9
 //ex10
