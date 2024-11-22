@@ -45,6 +45,7 @@ function ex006() {
     let PrecoOriginal = parseFloat(prompt("Insira o preço original do produto"));
     let Desconto = Number(prompt("Insira a porcentagem do desconto"));
     console.log(`Você comprou ${NomeProduto} que tinha o preço original de ${PrecoOriginal} \n Com um desconto de ${Desconto}% seu preço agpra é de ${PrecoOriginal*Desconto/100}`)
+    return PrecoTotal
 }
 //ex7
 //ex8
