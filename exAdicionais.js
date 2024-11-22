@@ -51,7 +51,32 @@ function ex006() {
 function ex007() {
     let ValorTotal = parseFloat(prompt("Qual o valor total da sua compra?"));
     let Parcelas = parseInt(prompt("Em quantas vezes deseja parcelar está compra?"));
+    let ValorDaParcela = parseFloat(ValorTotal/Parcelas);
+    console.log(`A sua compra teve um valor total de R$${ValorTotal} dividida em ${Parcelas} vezes. \n O valor por parcela é R$${ValorDaParcela}`);
+    return 0;
 };
 //ex8
+function ex008() {
+    let HoraSemana = parseInt(prompt("Quantas horas você trabalha por semana?"));
+    let ValorDaHora = parseFloat(prompt("Quanto você recebe pela hora de trabalho?"));
+    console.log(`Você recebe R$${HoraSemana*ValorDaHora} por semana trabalhada \n Trabalhando 4 semanas todo mês você recebe então R$${(HoraSemana*ValorDaHora)*4} todo mês`);
+    return 0;
+};
 //ex9
+function ex009(){
+    let ValorOriginal = parseFloat(prompt("Qual é o valor total da sua compra?"));
+    let Parcelas = parseInt(prompt("Qual a quantia de parcelas?"))
+    let Juros = ValorOriginal*parseInt(prompt("Qual a porcentagem do juros mensal?(simples)"))/100;
+    let ValorTotal = parseFloat(ValorOriginal+(Juros*Parcelas));
+    console.log(`Sua compra parcelada em ${Parcelas} vezes tinha o preço original de R$${ValorOriginal} com o juros mensal o preço final de R$${ValorTotal}`)
+    return 0
+};
 //ex10
+function ex010(){
+    let Numero = parseIntNumber(prompt("Insira um numero qualquer"));
+    if(Numero%2==0){
+        console.log("Par");
+    } else {
+        console.log("Impar");
+    };
+};
