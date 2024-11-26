@@ -9,3 +9,7 @@ const novoItem = document.createElement("li");
 novoItem.innerText = "Item 3";
 lista.appendChild(novoItem);
 
+const Nome = document.createElement("li")
+Nome.innerText = "Kleber"
+lista.appendChild(Nome)
+lista.removeChild(novoItem)
