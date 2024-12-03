@@ -10,17 +10,17 @@ function ex2(){
 //ex3
 let nome = "Ana Clara"
 function ex3(){
-    console.log(nome.replace("Ana","Maria"))
+    console.log(nome.replace("Ana", "Maria"));
 }
 //ex4
 function ex4(){
-    console.log("Eu gosto de programar".includes("gosto"))
+    console.log("Eu gosto de programar".includes("gosto"));
 }
 ex4()
 //ex5
 function ex5(){
-    let palavra = "computador"
-    console.log(palavra.substring(3,5))
+    let palavra = "computador";
+    console.log(palavra.substring(3,5));
 }
 //ex6
 function ex6(){
@@ -29,7 +29,7 @@ function ex6(){
         console.log("Senha válida")
     } else {
         console.log("Senha inválida")
-    }
+    };
 }
 //ex7
 function ex7(){
@@ -38,5 +38,5 @@ function ex7(){
        console.log("Palavra encontrada") 
     } else {
        console.log("Palavra não encontrada") 
-    }
+    };
 }
