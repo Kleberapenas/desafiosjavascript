@@ -17,4 +17,10 @@ carro.cor = "Prata"
 
 console.log(carro)
 //ex3
-let 
+let pessoa = {
+    nome: "Carlos",
+    idade: 28,
+    comprimento: function(){
+        console.log(`Ola eu nome é ${this.nome} eu tenho ${this.idade} anos de idade`)
+    }
+}
